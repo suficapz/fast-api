@@ -4,7 +4,7 @@ pipeline {
     environment {
         DOCKER_CREDENTIALS_ID = 'docker-cred'
         DOCKER_IMAGE          = '8089278330/fast-api-chatbot'
-        SONAR_SERVER_NAME     = 'sonarqube_env' 
+        SONAR_SERVER_NAME     = 'sonarqube-env' 
         SONAR_SCANNER_TOOL    = 'sonar-scanner'     
         GIT_CREDENTIALS_ID    = 'github-cred'
         MANIFEST_REPO         = 'https://github.com/suhaaail2004/maker_pipeline.git'
